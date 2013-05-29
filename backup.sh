@@ -17,6 +17,7 @@ do
 	# See, 
 	#    * http://stackoverflow.com/questions/67699/how-do-i-clone-all-remote-branches-with-git
 	git fetch --all
+	git pull --all
 	cd -
 done
 
