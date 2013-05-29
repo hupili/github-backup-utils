@@ -5,6 +5,23 @@ Github Backup Utils
    * Pointers to some existing solutions and tools. 
    * Scripts to complement them. 
 
+## Usage
+
+   * Run `init.sh`: 
+   it helps you interactively configure backup information, 
+   e.g. your GitHub Username. 
+   * `update-repo-list.sh`:
+   List the repos of you on GitHub; Store in `conf/repo.list`.
+   You can also write the list yourself for repos from other places. 
+   * `backup.sh`:
+   If a valid `conf/repo.list` is created, 
+   You just run this script to backup the repos. 
+   It uses git-fetch and git-pull for incremental backup. 
+
+Others:
+
+   * `auto.sh`: You can cron it. 
+
 ## Notes on GitHub Backup
 
    * A discussion on several Github backup methods. 
